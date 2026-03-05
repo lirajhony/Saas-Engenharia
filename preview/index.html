@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preview ENGEPRO SaaS - Apresentação ao Cliente</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .hero-gradient { background: linear-gradient(135deg, #1a2b4b 0%, #0f172a 100%); }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900">
+
+    <!-- Hero Section -->
+    <section class="hero-gradient text-white py-20 px-6">
+        <div class="max-w-6xl mx-auto text-center">
+            <h1 class="text-5xl font-extrabold mb-4">ENGEPRO SaaS</h1>
+            <p class="text-xl text-slate-300 max-w-2xl mx-auto">
+                Apresentação técnica das interfaces desenvolvidas para o MVP da plataforma de gestão de engenharia.
+            </p>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <main class="max-w-7xl mx-auto py-16 px-6">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+
+            <!-- Dashboard -->
+            <div class="space-y-4">
+                <div class="bg-white p-2 rounded-2xl shadow-xl border border-slate-200">
+                    <img src="img/dashboard.png" alt="Dashboard Executivo" class="rounded-xl w-full">
+                </div>
+                <div>
+                    <h3 class="text-2xl font-bold">Dashboard Executivo</h3>
+                    <p class="text-slate-600">Visão macro com indicadores de projetos ativos, atrasos, marcos e progresso por disciplina.</p>
+                </div>
+            </div>
+
+            <!-- Projetos -->
+            <div class="space-y-4">
+                <div class="bg-white p-2 rounded-2xl shadow-xl border border-slate-200">
+                    <img src="img/projects.png" alt="Lista de Projetos" class="rounded-xl w-full">
+                </div>
+                <div>
+                    <h3 class="text-2xl font-bold">Gestão de Projetos</h3>
+                    <p class="text-slate-600">Lista interativa com filtros avançados, barra de progresso real e status de cada obra.</p>
+                </div>
+            </div>
+
+            <!-- Overview -->
+            <div class="space-y-4">
+                <div class="bg-white p-2 rounded-2xl shadow-xl border border-slate-200">
+                    <img src="img/projects_1.png" alt="Visão Geral do Projeto" class="rounded-xl w-full">
+                </div>
+                <div>
+                    <h3 class="text-2xl font-bold">Overview do Projeto</h3>
+                    <p class="text-slate-600">Detalhamento individual com alertas críticos, próximos marcos e histórico de atividades recentes.</p>
+                </div>
+            </div>
+
+            <!-- Cronograma -->
+            <div class="space-y-4">
+                <div class="bg-white p-2 rounded-2xl shadow-xl border border-slate-200">
+                    <img src="img/projects_1_schedule.png" alt="Cronograma Gantt" class="rounded-xl w-full">
+                </div>
+                <div>
+                    <h3 class="text-2xl font-bold">Cronograma Físico-Financeiro</h3>
+                    <p class="text-slate-600">Gráfico de Gantt integrado com custos por etapa, status de pagamento e dependências.</p>
+                </div>
+            </div>
+
+            <!-- Kanban -->
+            <div class="space-y-4">
+                <div class="bg-white p-2 rounded-2xl shadow-xl border border-slate-200">
+                    <img src="img/projects_1_tasks.png" alt="Kanban de Tarefas" class="rounded-xl w-full">
+                </div>
+                <div>
+                    <h3 class="text-2xl font-bold">Kanban de Tarefas</h3>
+                    <p class="text-slate-600">Gestão operacional do canteiro com prioridades, checklists e responsáveis por tarefa.</p>
+                </div>
+            </div>
+
+            <!-- Documentos -->
+            <div class="space-y-4">
+                <div class="bg-white p-2 rounded-2xl shadow-xl border border-slate-200">
+                    <img src="img/projects_1_documents.png" alt="Gestão de Documentos" class="rounded-xl w-full">
+                </div>
+                <div>
+                    <h3 class="text-2xl font-bold">Repositório Técnico</h3>
+                    <p class="text-slate-600">Controle de versionamento de plantas, memoriais e planilhas com fluxo de aprovação.</p>
+                </div>
+            </div>
+
+            <!-- Prestadores -->
+            <div class="space-y-4">
+                <div class="bg-white p-2 rounded-2xl shadow-xl border border-slate-200">
+                    <img src="img/providers.png" alt="Gestão de Prestadores" class="rounded-xl w-full">
+                </div>
+                <div>
+                    <h3 class="text-2xl font-bold">Base de Prestadores</h3>
+                    <p class="text-slate-600">Gestão centralizada de terceirizados por disciplina e status de atividade.</p>
+                </div>
+            </div>
+
+            <!-- Relatórios -->
+            <div class="space-y-4">
+                <div class="bg-white p-2 rounded-2xl shadow-xl border border-slate-200">
+                    <img src="img/reports.png" alt="Relatórios" class="rounded-xl w-full">
+                </div>
+                <div>
+                    <h3 class="text-2xl font-bold">Inteligência de Dados</h3>
+                    <p class="text-slate-600">Relatórios de desempenho físico vs planejado e produtividade da equipe.</p>
+                </div>
+            </div>
+
+            <!-- Permissões -->
+            <div class="space-y-4">
+                <div class="bg-white p-2 rounded-2xl shadow-xl border border-slate-200">
+                    <img src="img/settings_permissions.png" alt="Matriz de Permissões" class="rounded-xl w-full">
+                </div>
+                <div>
+                    <h3 class="text-2xl font-bold">Governança (RBAC)</h3>
+                    <p class="text-slate-600">Matriz detalhada de permissões por perfil de usuário, garantindo segurança total dos dados.</p>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-slate-400 py-12 px-6 border-t border-slate-800">
+        <div class="max-w-6xl mx-auto text-center">
+            <p class="text-sm">© 2024 ENGEPRO SaaS - Tecnologia para Engenharia</p>
+        </div>
+    </footer>
+
+</body>
+</html>
