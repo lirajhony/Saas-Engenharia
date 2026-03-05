@@ -1,0 +1,31 @@
+/
+├─ README.md
+├─ CONTRIBUTING.md
+├─ CODE_OF_CONDUCT.md
+├─ SECURITY.md
+├─ LICENSE
+├─ .gitignore
+├─ .editorconfig
+├─ .env.example
+├─ docs/
+│  ├─ 00-visao-produto.md
+│  ├─ 01-roadmap.md
+│  ├─ 02-arquitetura.md
+│  ├─ 03-stack-e-ferramentas.md
+│  ├─ 04-workflows-e-rotinas.md
+│  ├─ 05-padroes-de-codigo.md
+│  ├─ 06-skills-matriz.md
+│  ├─ 07-qa-e-testes.md
+│  ├─ 08-seguranca-e-lgpd.md
+│  ├─ 09-deploy-e-ambientes.md
+│  └─ 10-adr-template.md
+├─ .github/
+│  ├─ PULL_REQUEST_TEMPLATE.md
+│  ├─ ISSUE_TEMPLATE/
+│  │  ├─ bug_report.md
+│  │  ├─ feature_request.md
+│  │  └─ task.md
+│  └─ workflows/
+│     └─ ci.yml
+└─ adr/
+   └─ README.md
