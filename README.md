@@ -42,6 +42,9 @@ Plataforma SaaS focada em gestão de projetos, orçamento, cronograma (Gantt com
 
 > Detalhes completos: `docs/03-stack-e-ferramentas.md` e `docs/02-arquitetura.md`
 
+## 🎨 Visual Preview
+Acesse o **[Preview das Interfaces (Apresentação ao Cliente)](preview/index.html)** para visualizar todas as telas desenvolvidas no MVP.
+
 ## Como rodar localmente
 1. Copie o arquivo `.env.example` para `.env.local`
 2. Preencha as variáveis
